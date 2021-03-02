@@ -1,9 +1,32 @@
+// Header
+$(document).ready(function(){
+    $('.header__bottom a').each(function () {
+    if (this.href == location.href) $(this).addClass('active');
+    });
+    });
 // Burger
 $(document).ready(function () {
     $('.header__burger').click(function (event) {
         $('.header__burger__menu,.header__burger').toggleClass('active');
     });
 });
+
+// Header Burger List
+let li_header = document.querySelectorAll(".header__burger__list li");
+let a_header = document.querySelectorAll(".header__burger__list li a");
+for (let i = 1; i < li_header.length; i++) {
+    li_header[i].addEventListener('mouseenter', function () {
+        li_header[i].classList.add("hover")
+        a_header[i-1].classList.add("hover")
+        })
+};
+for (let i = 1; i < li_header.length; i++) {
+    li_header[i].addEventListener('mouseleave', function () {
+        li_header[i].classList.remove("hover")        
+        a_header[i-1].classList.remove("hover")
+        })
+};
+
 
 //  Partner-carousel
 $(".partner-carousel").owlCarousel({
