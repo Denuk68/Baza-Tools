@@ -436,8 +436,11 @@ body {
 	flex-grow: 1;
 	background-color: azure;
 }
-
-
+/* Stihl page */
+.main__stihl{
+	flex-grow: 1;
+	background-color: azure;
+}
 
 
 /* Media requests */
@@ -523,11 +526,6 @@ body {
 	/* Line */
 	.line{
 		font-size: 16px;
-	}
-	  
-	/* Home page */
-	.main__home{
-	background-color: azure;
 	}
 	/* About page */
 	.main__about .wrapper__info{
