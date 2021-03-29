@@ -55,7 +55,7 @@ var headerText =
                     <li><a href="">Makita</a></li>
                     <li><a href="">Metabo</a></li>
                     <li><a href="">Stanley</a></li>-->
-                    <li><a href="">Stihl</a></li>
+                    <li><a href="./stihl.html">Stihl</a></li>
                 <!--<li><a href="">Titan</a></li>-->
                 </ul>
             </div>
