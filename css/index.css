@@ -352,7 +352,7 @@ body {
 	height: auto;
  }
  /* Cart Products for STIHL Puly */
- .product__item__stihl__puly{
+ .product__item__stihl__pulu{
 	height: 345px;
  }
  /* Cart Products for STIHL Motokosu */
@@ -511,13 +511,18 @@ body {
 	flex-grow: 1;
 	background-color: azure;
 }
-/* Stihl Pily page */
-.main__stihl__pily{
+/* Stihl Pulu page */
+.main__stihl__pulu{
 	flex-grow: 1;
 	background-color: azure;
 }
 /* Stihl Motokosu page */
 .main__stihl__motokosu{
+	flex-grow: 1;
+	background-color: azure;
+}
+/* Stihl Gazonokosarku page */
+.main__stihl__gazonokosarku{
 	flex-grow: 1;
 	background-color: azure;
 }
