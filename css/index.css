@@ -273,13 +273,13 @@ body {
 }
 .wrap__cart__products {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
 }
 .product__item {
 	position: relative;
-	margin: 10px 5px;
+	margin: 10px 15px;
 	width: 300px;
 	height: 400px;
 	text-align: center;
@@ -359,7 +359,21 @@ body {
  img.product__item__stihl__motokosu__img{
 	max-height: 200px;
  }
-
+ /* Cart Products for STIHL Gazonokosarku */
+ img.product__item__stihl__gazonokosarku{
+	max-height: 195px;
+ }
+ /* Cart Products for STIHL Muyku */
+ img.product__item__stihl__muyky{
+	max-height: 195px;
+ }
+ .product_list__stihl__muyky{
+	 padding: 5px 15px;
+ }
+ /* Cart Products for STIHL Povitrodyuku */
+ .product__item__stihl__povitrodyuku{
+	height: 310px;
+ }
  /* Cart Category */
  .wrap__cart__category{
 	 display: flex;
@@ -420,9 +434,6 @@ body {
 	background-color: #cccccc;
 	color: #2b2b2b;
  }
-
-
-
  /* Owl Carousel Top Menu */
 .section-slide-wrap{
 	max-width: 600px;
@@ -436,7 +447,6 @@ body {
 .owl-theme .owl-dots .owl-dot.active span{
 	background-color: #c14f2b;
 }
-
 /* Line */
 .line {
     line-height: 1em;
@@ -523,6 +533,21 @@ body {
 }
 /* Stihl Gazonokosarku page */
 .main__stihl__gazonokosarku{
+	flex-grow: 1;
+	background-color: azure;
+}
+/* Stihl Aeratoru page */
+.main__stihl__aeratoru{
+	flex-grow: 1;
+	background-color: azure;
+}
+/* Stihl Muyku page */
+.main__stihl__muyky{
+	flex-grow: 1;
+	background-color: azure;
+}
+/* Stihl Muyku Povitrodyuku */
+.main__stihl__povitrodyuku{
 	flex-grow: 1;
 	background-color: azure;
 }
