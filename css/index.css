@@ -68,6 +68,10 @@ body {
 	max-width: 1200px;
 	margin: 0 auto;
 }
+main{
+	flex-grow: 1;
+	background-color: azure;
+}
 
   
 /* Header */
@@ -120,7 +124,6 @@ body {
 .header__bottom a.active{
 	color: #c14f2b;
 }
-
 /* Header burger */
 .header__burger {
     display: block;
@@ -222,7 +225,6 @@ body {
 }
 
 
-
 /* Footer */
 .footer__top{
 	height: 150px;
@@ -266,6 +268,66 @@ body {
 	font-size: 24px;
 	padding-left: 20px;		
 }
+
+
+/* Cart Category */
+.wrap__cart__category{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.category__item{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: relative;
+   margin: 10px 5px;
+   width: 300px;
+   height: 250px;
+   text-align: center;
+   border: 3px solid rgba(0, 0, 0, 20%);
+   background-color: white;
+   transition: .3s ease-in;
+   border-radius: 10px;
+   cursor: pointer;
+}
+.category__item:hover {
+   border: 3px solid #c75732;
+}
+.category__item h3 {
+   display: inline-block;
+   height: 75px;
+   text-align: center;
+   font-size: 18px;
+   padding: 10px 0;
+   color: #c75732;
+   font-weight: bold;
+}
+.category__item img {
+   width: 75%;
+   height: 125px;
+} 
+.category__products {
+   position: absolute;
+   bottom: 5px;
+}
+.category__products a{
+   text-decoration: none;
+   display: inline-block;
+   border-radius: 5px;
+   padding: 0 20px;
+   background-color: #c75732;
+   color: white;
+   font-size: 15px;
+   line-height: 28px;
+   transition: .3s ease-in;
+}
+.category__products:hover a{
+   background-color: #cccccc;
+   color: #2b2b2b;
+}
+
 
 /* Сart Products */
 .cart__products{
@@ -351,89 +413,8 @@ body {
 	width: 80px;
 	height: auto;
  }
- /* Cart Products for STIHL Puly */
- .product__item__stihl__pulu{
-	height: 345px;
- }
- /* Cart Products for STIHL Motokosu */
- img.product__item__stihl__motokosu__img{
-	max-height: 200px;
- }
- /* Cart Products for STIHL Gazonokosarku */
- img.product__item__stihl__gazonokosarku{
-	max-height: 195px;
- }
- /* Cart Products for STIHL Muyku */
- img.product__item__stihl__muyky{
-	max-height: 195px;
- }
- .product_list__stihl__muyky{
-	 padding: 5px 15px;
- }
- /* Cart Products for STIHL Povitrodyuku */
- .product__item__stihl__povitrodyuku{
-	height: 310px;
- }
- /* Cart Category */
- .wrap__cart__category{
-	 display: flex;
-	 justify-content: space-around;
-	 align-items: center;
-	 flex-wrap: wrap;
- }
- .category__item{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	position: relative;
-	margin: 10px 5px;
-	width: 300px;
-	height: 250px;
-	text-align: center;
-	border: 3px solid rgba(0, 0, 0, 20%);
-	background-color: white;
-	transition: .3s ease-in;
-	border-radius: 10px;
-	cursor: pointer;
- }
- .category__item:hover {
-	border: 3px solid #c75732;
- }
- .category__item h3 {
-	display: inline-block;
-	height: 75px;
- }
- .category__item h3 {
-	text-align: center;
-	font-size: 18px;
-	padding: 10px 0;
-	color: #c75732;
-	font-weight: bold;
- }
- .category__item img {
-	width: 75%;
-	height: 125px;
- }
- 
- .category__products {
-	position: absolute;
-    bottom: 5px;
- }
- .category__products a{
-	text-decoration: none;
-	display: inline-block;
-	border-radius: 5px;
-	padding: 0 20px;
-	background-color: #c75732;
-	color: white;
-	font-size: 15px;
-	line-height: 28px;
-	transition: .3s ease-in;
- }
- .category__products:hover a{
-	background-color: #cccccc;
-	color: #2b2b2b;
- }
+
+
  /* Owl Carousel Top Menu */
 .section-slide-wrap{
 	max-width: 600px;
@@ -447,6 +428,8 @@ body {
 .owl-theme .owl-dots .owl-dot.active span{
 	background-color: #c14f2b;
 }
+
+
 /* Line */
 .line {
     line-height: 1em;
@@ -458,7 +441,7 @@ body {
 	font-size: 21px;
 	font-weight: bold;
 }
-  .line:before {
+.line:before {
     content: '';
     background: linear-gradient(to right, transparent, rgba(0,0,0,0.5), transparent);
     position: absolute;
@@ -466,26 +449,20 @@ body {
     top: 50%;
     width: 100%;
     height: 1px;
-  }
-  .line:after {
+}
+.line:after {
     content: attr(data-content);
     position: relative;
     display: inline-block;
     padding: 0 .5em;
     line-height: 1.5em;
     background-color: azure;
-  }
+}
 
-/* Home page */
-.main__home{
-	flex-grow: 1;
-	background-color: azure;
-}
-/* About page */
-.main__about{
-	flex-grow: 1;
-	background-color: azure;
-}
+
+/*<--------------- Pages---------------->*/
+
+/* About  */
 .main__about .info .container{
 	border-left:  2px solid #b34928;
 	border-right:  2px solid #b34928;
@@ -511,46 +488,43 @@ body {
 	text-align: justify;
 	list-style-type: disc;
 }
-/* Location page */
-.main__location{
-	flex-grow: 1;
-	background-color: azure;
-}
-/* Stihl page */
-.main__stihl{
-	flex-grow: 1;
-	background-color: azure;
-}
-/* Stihl Pulu page */
-.main__stihl__pulu{
-	flex-grow: 1;
-	background-color: azure;
-}
-/* Stihl Motokosu page */
-.main__stihl__motokosu{
-	flex-grow: 1;
-	background-color: azure;
-}
-/* Stihl Gazonokosarku page */
-.main__stihl__gazonokosarku{
-	flex-grow: 1;
-	background-color: azure;
-}
-/* Stihl Aeratoru page */
-.main__stihl__aeratoru{
-	flex-grow: 1;
-	background-color: azure;
-}
-/* Stihl Muyku page */
-.main__stihl__muyky{
-	flex-grow: 1;
-	background-color: azure;
-}
-/* Stihl Muyku Povitrodyuku */
-.main__stihl__povitrodyuku{
-	flex-grow: 1;
-	background-color: azure;
-}
+ /* STIHL Puly  */
+ .product__item__stihl__pulu{
+	height: 345px;
+ }
+ /* STIHL Motokosu */
+ .product__item__stihl__motokosu img{
+	max-height: 200px;
+ }
+ /* STIHL Gazonokosarku */
+ .product__item__stihl__gazonokosarku img{
+	max-height: 195px;
+ }
+ /* STIHL Aeratoru */
+ .product__item__stihl__aeratoru img{
+	max-height: 195px;
+ }
+ /* STIHL Muyku */
+ .product__item__stihl__muyky img{
+	max-height: 195px;
+ }
+ .product__item__stihl__muyky .product_list{
+	padding: 5px 15px;
+ }
+ /* STIHL Povitrodyuku */
+ .product__item__stihl__povitrodyuku{
+	height: 310px;
+ }
+ /* Metabo */
+ .main__metabo .category__item img {
+	width:75%;
+	height: auto;
+ }
+ .main__metabo .category__item h3 {
+	height: 50px;
+ }
+
+
 
 
 /* Media requests */
@@ -570,7 +544,9 @@ body {
 	.container {
 	  max-width: none;
 	  padding: 0 15px;
-	}	
+	}
+
+	/* Footer */
 	.footer__top .wrapper__info{
 		display: flex;
 		justify-content: space-around;
@@ -581,62 +557,64 @@ body {
   }
   
 @media (max-width: 575px) {	
-	  	  /* Header */
-	  .header__top .header__body{
-		  height: 250px;
-		  flex-direction: column;
-		  justify-content: center;
+	/* Header */
+	.header__top .header__body{
+		height: 250px;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.header__top .header__logo{
+		margin-left: 25px;
 	  }
-	  .header__top .header__logo{
-		  margin-left: 25px;
+	.header__top .header__contact{
+		margin-top: 10px;
 	  }
-	  .header__top .header__contact{
-		  margin-top: 10px;
-	  }
-	  .header__bottom a{
+	.header__bottom a{
 		font-size: 18px;	
 	  }
-	  .header__bottom .header__menu{
+	.header__bottom .header__menu{
 		padding: 0 10px;	
 	  }
-	  .header__burger__list{
-		  width: 100%;
+	.header__burger__list{
+		width: 100%;
 	  }
-	  .header__burger__menu{
+	.header__burger__menu{
 		transition: 0s;
 	  }
-	  .header__burger__menu ul li{
-		  display: flex;
-		  justify-content: center;
-		  border-bottom: 1px solid #2b2b2b;	
-		  line-height: 2.35;
+	.header__burger__menu ul li{
+		display: flex;
+		justify-content: center;
+		border-bottom: 1px solid #2b2b2b;	
+		line-height: 2.35;
 	  }
-	  .header__burger__menu ul li:last-child{
+	.header__burger__menu ul li:last-child{
 		  border-bottom: 0px;	
-	  }
+	}
 	  
-	  /* Footer */	  
-	  .footer__top .partner-carousel .single-partner{
+	/* Footer */	  
+	.footer__top .partner-carousel .single-partner{
 		justify-content: center;
 		height: 50px;
 	  }
-	  .footer__top .partner-carousel .single-partner img {	
+	.footer__top .partner-carousel .single-partner img {	
 		opacity: 1;
 		width: 70%;
 		height: auto;
-	  }
-	  .footer__top .partner-carousel-wrap{
+	}
+	.footer__top .partner-carousel-wrap{
 		width: 80%;
 		margin: 0 auto;		
-	  } 
-	  .footer__top .wrapper__info{
+	} 
+	.footer__top .wrapper__info{
 		padding: 10px 0;
-		height: 100px;		
+		height: 100px;
 	}
+
 	/* Line */
 	.line{
 		font-size: 16px;
 	}
+
 	/* About page */
 	.main__about .wrapper__info{
 		padding: 0;
