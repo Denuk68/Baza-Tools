@@ -523,8 +523,10 @@ main{
  .main__metabo .category__item h3 {
 	height: 50px;
  }
-
-
+/* Metabo Perferatoru */
+.main__metabo__perferatoru .product__item{
+	height: 350px;
+}
 
 
 /* Media requests */
