@@ -531,6 +531,14 @@ main{
 .main__metabo__kutovi__slifmashunu .product__item{
 	height: 350px;
 }
+/* Metabo  Shlifmashunu */
+.main__metabo__shlifmashunu .product__item{
+	height: 350px;
+}
+/* Metabo  Shlifmashunu */
+.main__metabo__pulku img{
+	max-height: 150px;
+}
 
 
 /* Media requests */
