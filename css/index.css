@@ -527,6 +527,10 @@ main{
 .main__metabo__perferatoru .product__item{
 	height: 350px;
 }
+/* Metabo Kutovi Shlifmashunu */
+.main__metabo__kutovi__slifmashunu .product__item{
+	height: 350px;
+}
 
 
 /* Media requests */
