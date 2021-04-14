@@ -543,6 +543,17 @@ main{
 .main__metabo__lobzuku .product__item{
 	height: 350px;
 }
+/* Metabo  Gaykovertu */
+.main__metabo__gaykovertu img{
+	max-height: 150px;
+}
+/* Metabo  Termofenu */
+.main__metabo__termofenu .product__item{
+	height: 350px;
+}
+.main__metabo__termofenu img{
+	max-height: 150px;
+}
 
 
 /* Media requests */
