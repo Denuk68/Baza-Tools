@@ -554,8 +554,10 @@ main{
 .main__metabo__termofenu img{
 	max-height: 150px;
 }
-
-
+/* Metabo  Kompresoru */
+.main__metabo__kompresoru .product__item{
+	height: 360px;
+}
 /* Media requests */
 @media (max-width: 1200px) {
 	.container {
