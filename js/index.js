@@ -80,13 +80,17 @@ var footerText =
                         <img src="./img/brand/makita.png" alt="makita">
                     </div>
                     <div class="single-partner">
-                        <img src="./img/brand/metabo.png" alt="metabo">
+                        <a href="./metabo.html">
+                            <img src="./img/brand/metabo.png" alt="metabo">
+                        </a>                        
                     </div>
                     <div class="single-partner">
                         <img src="./img/brand/dewalt.png" alt="dewalt">
                     </div>
                     <div class="single-partner">
-                        <img src="./img/brand/stihl.png" alt="stihl">
+                        <a href="./stihl.html">
+                            <img src="./img/brand/stihl.png" alt="stihl">
+                        </a>                          
                     </div>
                     <div class="single-partner">
                         <img src="./img/brand/bosch.png" alt="bosch">
@@ -132,6 +136,7 @@ function setFooter() {
     main.insertAdjacentElement('afterend', footer);
 }
 setFooter();
+
 
 
 

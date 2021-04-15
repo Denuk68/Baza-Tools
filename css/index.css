@@ -328,6 +328,19 @@ main{
    color: #2b2b2b;
 }
 
+/* Actual Price */
+.actual__price{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 40px;
+	width: 100%;
+	font-size: 21px;
+}
+.actual__price span{
+	color: #c14f2b;
+	font-size: 30px;
+}
 
 /* Сart Products */
 .cart__products{
@@ -657,6 +670,15 @@ main{
 	.main__about .info p {
 		text-align: left;
 		padding: 0;
+	}
+	
+	/* Actual Price */
+	.actual__price {
+		height: 60px;
+		font-size: 16px;
+	}
+	.actual__price span{
+		font-size: 20px;
 	}
 	
 }
