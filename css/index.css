@@ -653,7 +653,10 @@ main{
 		padding: 10px 0;
 		height: 100px;
 	}
-
+	/* Cart Category */
+	.category__item h3{
+		font-size: 16px;
+	}
 	/* Line */
 	.line{
 		font-size: 16px;
