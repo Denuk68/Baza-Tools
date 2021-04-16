@@ -268,7 +268,11 @@ main{
 	font-size: 24px;
 	padding-left: 20px;		
 }
-
+/* h1 hidden */
+h1.hidden{
+	font-size: 1px;
+	visibility: hidden;
+}
 
 /* Cart Category */
 .wrap__cart__category{
