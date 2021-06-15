@@ -51,8 +51,8 @@ var headerText =
                 <ul class="header__burger__list">
                     <li><span>Каталог</span></li>
                 <!--<li><a href="">Bosch</a></li>
-                    <li><a href="">DeWalt</a></li>
-                    <li><a href="">Makita</a></li>-->
+                    <li><a href="">DeWalt</a></li>-->
+                    <li><a href="./makita.html">Makita</a></li>
                     <li><a href="./metabo.html">Metabo</a></li>
                 <!--<li><a href="">Stanley</a></li>-->
                     <li><a href="./stihl.html">Stihl</a></li>
