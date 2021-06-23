@@ -596,6 +596,14 @@ h1.hidden{
 .makita__kutovi__shlifmashunu img{
  	max-height: 170px;
 }
+/* Makita Shurupovertu */
+.main__makita__shurupovertu .product__item.change{
+	height: 350px;
+}
+/* Makita Shlifmashunu */
+.makita__shlifmashunu img{
+	max-height: 170px;
+}
 
 
 /* Media requests */
