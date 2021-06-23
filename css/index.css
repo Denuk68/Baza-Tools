@@ -552,11 +552,11 @@ h1.hidden{
 .main__metabo__shlifmashunu .product__item{
 	height: 350px;
 }
-/* Metabo  Shlifmashunu */
+/* Metabo  Pulku */
 .main__metabo__pulku img{
 	max-height: 150px;
 }
-/* Metabo  Shlifmashunu */
+/* Metabo  Lobzuku */
 .main__metabo__lobzuku .product__item{
 	height: 350px;
 }
@@ -591,6 +591,10 @@ h1.hidden{
 .main__makita img{
 	width: 80%;
 	height: auto;
+}
+/* Makita Kutovi Shlifmashunu */
+.makita__kutovi__shlifmashunu img{
+ 	max-height: 170px;
 }
 
 
