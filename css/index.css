@@ -505,81 +505,83 @@ h1.hidden{
 	text-align: justify;
 	list-style-type: disc;
 }
+
  /* STIHL Pulu  */
- .product__item__stihl__pulu{
+ .stihl__pulu .product__item {
 	height: 345px;
  }
  /* STIHL Motokosu */
- .product__item__stihl__motokosu img{
+.stihl__motokosu .product__item img{
 	max-height: 200px;
  }
  /* STIHL Gazonokosarku */
- .product__item__stihl__gazonokosarku img{
+ .stihl__gazonokosarku .product__item img{
 	max-height: 195px;
  }
  /* STIHL Aeratoru */
- .product__item__stihl__aeratoru img{
+ .stihl__aeratoru .product__item img{
 	max-height: 195px;
  }
  /* STIHL Muyku */
- .product__item__stihl__muyku img{
+ .stihl__muyku .product__item img{
 	max-height: 195px;
  }
- .product__item__stihl__muyku .product_list{
+ .stihl__muyku .product_list{
 	padding: 5px 15px;
  }
  /* STIHL Povitrodyuku */
- .product__item__stihl__povitrodyuku{
+ .stihl__povitrodyuku .product__item{
 	height: 310px;
  }
+ 
  /* Metabo */
- .main__metabo .category__item img {
+ .metabo .category__item img {
 	width:75%;
 	height: auto;
  }
- .main__metabo .category__item h3 {
+ .metabo .category__item h3 {
 	height: 50px;
  }
 /* Metabo Perferatoru */
-.main__metabo__perferatoru .product__item{
+.metabo__perferatoru .product__item{
 	height: 350px;
 }
 /* Metabo Kutovi Shlifmashunu */
-.main__metabo__kutovi__slifmashunu .product__item{
+.metabo__kutovi__slifmashunu .product__item{
 	height: 350px;
 }
 /* Metabo  Shlifmashunu */
-.main__metabo__shlifmashunu .product__item{
+.metabo__shlifmashunu .product__item{
 	height: 350px;
 }
 /* Metabo  Pulku */
-.main__metabo__pulku img{
+.metabo__pulku img{
 	max-height: 150px;
 }
 /* Metabo  Lobzuku */
-.main__metabo__lobzuku .product__item{
+.metabo__lobzuku .product__item{
 	height: 350px;
 }
 /* Metabo  Gaykovertu */
-.main__metabo__gaykovertu img{
+.metabo__gaykovertu img{
 	max-height: 150px;
 }
 /* Metabo  Termofenu */
-.main__metabo__termofenu .product__item{
+.metabo__termofenu .product__item{
 	height: 350px;
 }
-.main__metabo__termofenu img{
+.metabo__termofenu img{
 	max-height: 150px;
 }
 /* Metabo  Kompresoru */
-.main__metabo__kompresoru .product__item{
+.metabo__kompresoru .product__item{
 	height: 360px;
 }
 /* Makita */
-.main__makita .category__item h3{
+.makita .category__item h3{
 	height: 50px;
 }
-.main__makita .wrapper__img{
+.makita .wrapper__img{
 	width: 200px;
 	height: 150px;
 	display: flex;
@@ -588,54 +590,57 @@ h1.hidden{
 	justify-content: center;
 	overflow: hidden;
 }
-.main__makita img{
+.makita img{
 	width: 80%;
 	height: auto;
 }
 /* Makita Druli */
-.main__makita__druli img{
+.makita__druli img{
 	max-height: 140px;
 }
 /* Makita Perferatoru */
-.main__makita__perferatoru img{
+.makita__perferatoru img{
 	max-height: 140px;
 }
 /* Makita Kutovi Shlifmashunu */
-.main__makita__kutovi__shlifmashunu img{
+.makita__kutovi__shlifmashunu img{
  	max-height: 160px;
 }
 /* Makita  Shlifmashunu */
-.main__makita__shlifmashunu img{
+.makita__shlifmashunu img{
  	max-height: 170px;
 }
-.main__makita__shlifmashunu .product__item{
- 	max-height: 380px;
+.makita__shlifmashunu .product__item{
+ 	height: 380px;
 }
 /* Makita Shurupovertu */
-.main__makita__shurupovertu .product__item.change{
+.makita__shurupovertu .product__item.change{
 	height: 350px;
 }
 /* Makita Shlifmashunu */
-.mian__makita__shlifmashunu img{
+.makita__shlifmashunu img{
 	max-height: 170px;
 }
 /* Makita Pulku */
-.main__makita__pulku img{
+.makita__pulku img{
 	max-height: 170px;
 }
+.makita__pulku .product__item{
+	height: 370px;
+}
 /* Makita Lobzuku */
-.main__makita__lobzuku img{
+.makita__lobzuku img{
 	min-height: 130px;
 }
-.main__makita__lobzuku .product__item{
+.makita__lobzuku .product__item{
 	height: 360px;
 }
 /* Makita Frezeru */
-.main__makita__frezeru img{
+.makita__frezeru img{
 	min-height: 140px;
 }
-.main__makita__frezeru .product__item{
-	max-height: 350px;
+.makita__frezeru .product__item{
+	height: 350px;
 }
 
 
