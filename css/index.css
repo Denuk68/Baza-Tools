@@ -420,16 +420,6 @@ h1.hidden{
 	background-color: #cccccc;
 	color: #2b2b2b;
  }
- .product__item .new{
-	display: inline-block;
-	position: absolute;
-	top: 60px;
-	right: 0px;
- }
- .product__item .new img{
-	width: 80px;
-	height: auto;
- }
 
 
  /* Owl Carousel Top Menu */
