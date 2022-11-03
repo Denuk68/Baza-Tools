@@ -105,7 +105,7 @@ var footerText =
         <div class="container">
             <div class="wrapper__info">
                 <ul class="shop">
-                    <li>© 2019-2021 Магазин "База інструментів"</li>
+                    <li>© 2019-2023 Магазин "База інструментів"</li>
                 </ul>
                 <ul class="social">
                     <li><span>Ми в соціальних мережах : </span></li>
